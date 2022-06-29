@@ -1,0 +1,11 @@
+package Day03;
+
+public class _02_useOfSingleton {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//이미 Singleton 클래스에 하나의 객체가 생성되어 있기 때문에 컴파일 오류
+		//Singleton s1 = new Singleton();
+	}
+
+}

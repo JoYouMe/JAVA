@@ -1,0 +1,9 @@
+package Day04;
+
+public class Tv {
+	protected String Company;
+	
+	protected void showCompany() {
+		
+	}
+}

@@ -1,0 +1,9 @@
+package Day03;
+
+public class userInfo {
+	private String userName;
+	private String phoneNum;
+	private int userAge;
+	
+	
+}

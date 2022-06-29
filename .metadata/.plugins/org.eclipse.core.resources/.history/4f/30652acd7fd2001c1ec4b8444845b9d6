@@ -1,0 +1,13 @@
+package Day04;
+
+public class _09_reasonOfTypeChange {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Bus bus = new Bus();
+		Taxi tax = new Taxi();
+		
+		Driver driver = new Driver();
+	}
+
+}

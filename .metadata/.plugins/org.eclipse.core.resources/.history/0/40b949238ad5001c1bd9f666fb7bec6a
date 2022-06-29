@@ -1,0 +1,11 @@
+package Day06;
+
+public class _11_wrapper_parse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//String형 "100"을 int형 100으로 치환
+		int num1 = Integer.parseInt("100");
+	}
+
+}

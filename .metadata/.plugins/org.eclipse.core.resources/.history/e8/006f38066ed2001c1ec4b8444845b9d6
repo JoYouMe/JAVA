@@ -1,0 +1,9 @@
+package Day04;
+
+public class Phone {
+	int price;
+	
+	Phone() {
+		price = 100000;
+	}
+}

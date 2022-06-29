@@ -1,0 +1,16 @@
+package Day06;
+
+import Day03.Car;
+
+public class _01_Class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Class °´Ã¼ ¾ò±â
+		Class cla1 = Car.class;
+		
+		Car car = new Car();
+		Class cla2 = car.getClass();
+	}
+
+}

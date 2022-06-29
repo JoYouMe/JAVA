@@ -1,0 +1,12 @@
+package Day03;
+
+public class Car {
+	//인스턴스 멤버
+	String company;
+	//정적 멤버
+	static String color = "레드";
+	
+	void companyInfo() {
+		company = "현대";
+	}
+}

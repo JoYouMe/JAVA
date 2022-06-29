@@ -1,0 +1,14 @@
+package Day05;
+
+public class _04_nullPointerException {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = null;
+		
+		//null값을 갖는 str변수를 사용 시
+		//NullPointerException 발생
+		System.out.println(str);
+	}
+
+}

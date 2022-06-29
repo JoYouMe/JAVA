@@ -1,0 +1,6 @@
+package Day03;
+
+public class Singleton {
+	//教臂沛 按眉 积己
+	private static Singleton singleton = new Singleton();
+}

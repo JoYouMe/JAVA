@@ -1,0 +1,15 @@
+package Day04;
+
+public class SportsCar extends Car{
+	public int driveMode = 1;
+	
+	@Override
+	public void drive() {
+		if(driveMode == 1) {
+			//super 키워드로 부모클래스의 메소드 호출
+			super.drive();
+		} else {
+			System.out.println("고속주행");
+		}
+	}
+}

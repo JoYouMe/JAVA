@@ -1,0 +1,15 @@
+package Day04;
+
+public class _06_inheritTypeChange {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//1. 자식객체 생성
+		//SmartPhone 형태이면서 Phone의 형태도 가지고 있음
+		SmartPhone smartPhone = new SmartPhone();
+		
+		//2. 부모객체에 자식객체 삽입
+		Phone phone = smartPhone;
+	}
+
+}

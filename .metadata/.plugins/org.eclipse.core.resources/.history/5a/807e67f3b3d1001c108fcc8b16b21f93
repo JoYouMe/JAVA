@@ -1,0 +1,12 @@
+package Day03;
+
+import Day03.com.test.test;
+
+public class _05_package {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(test.num);
+	}
+
+}

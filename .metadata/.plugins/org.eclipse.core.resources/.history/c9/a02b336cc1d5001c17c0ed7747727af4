@@ -1,0 +1,52 @@
+package Day06;
+
+public class _23_basic {
+	public static int sumArray(int[] arr) {
+		int sum = 0;
+		
+		for(int i = 0; i < arr.length; i++) {
+			sum += arr[i];
+		}
+		
+		return sum;
+	}
+	
+	public static void printEven(int[] arr) {
+		for(int i = 0; i < arr.length; i++) {
+			if(arr[i] % 2 == 0)
+				System.out.print(arr[i] + "\t");
+		}
+		System.out.println();
+	}
+	
+	public static int[] printEven(int[] arr) {
+		int[] returnArr = new int[arr.length / 2 + 1];
+		int index = 0;
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] numArr1 = new int[11];
+		int[] numArr2 = new int[101];
+		
+		for(int i = 0; i < numArr1.length; i++) {
+			numArr1[i] = i;
+		}
+		
+		for(int j = 0; j < numArr2.length; j++) {
+			numArr2[j] = j + 100;
+		}
+		
+		System.out.println("-----------¹è¿­ÀÇ ÃÑÇÕ-----------");
+		System.out.println(sumArray(numArr1));
+		System.out.println(sumArray(numArr2));
+		System.out.println("-----------------------------");
+		
+		System.out.println("-----------Â¦¼ö Ãâ·Â-----------");
+		printEven(numArr1);
+		printEven(numArr2);
+		System.out.println("-----------------------------");
+	}
+
+}

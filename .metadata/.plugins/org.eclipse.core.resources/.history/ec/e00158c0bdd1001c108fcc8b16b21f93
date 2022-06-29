@@ -1,0 +1,10 @@
+package Day03;
+
+public class userInfo {
+	//getter/setter ¼±¾ð
+	private String userName;
+	private String phoneNum;
+	private int userAge;
+	
+	
+}

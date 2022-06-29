@@ -1,0 +1,8 @@
+package Day05;
+
+public class FreeBoard implements Board{
+	@Override
+	public void getBoardList() {
+		
+	}
+}

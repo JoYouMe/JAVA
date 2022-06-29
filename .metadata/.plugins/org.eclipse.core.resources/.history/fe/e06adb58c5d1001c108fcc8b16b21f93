@@ -1,0 +1,14 @@
+package Day03;
+
+public class _07_inherit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SamsungTv samsungTv = new SamsungTv("삼성", 300000, 47, "빅스비");
+		LgTv lgTv = new LgTv("LG", 250000, 52, "구글 어시스턴스");
+		
+		//부모 필드에 접근
+		System.out.println("이 티비의 제조사는 : " + samsungTv.company);
+	}
+
+}

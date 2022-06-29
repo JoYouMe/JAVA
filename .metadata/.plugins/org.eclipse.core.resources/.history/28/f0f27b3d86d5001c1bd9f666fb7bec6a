@@ -1,0 +1,12 @@
+package Day06;
+
+public class _06_substring {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "111111-2222222";
+		
+		String first = str.substring(0, 6);
+	}
+
+}

@@ -1,0 +1,17 @@
+package Day05;
+
+public class _10_equals {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FreeBoard fBoard1 = new FreeBoard();
+		FreeBoard fBoard2 = new FreeBoard();
+		
+		boolean classChk = fBoard1.equals(fBoard2);
+		
+		if(classChk) {
+			System.out.println("fBoard1과 fBoard2는 같은 객체입니다.");
+		}
+	}
+
+}

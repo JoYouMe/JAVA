@@ -1,0 +1,10 @@
+package Day03;
+
+public class Tv {
+	String Company;
+	int price;
+	
+	void powerOn() {
+		
+	}
+}

@@ -1,0 +1,5 @@
+package Day03.com.test1;
+
+public class C {
+	A a = new A();
+}

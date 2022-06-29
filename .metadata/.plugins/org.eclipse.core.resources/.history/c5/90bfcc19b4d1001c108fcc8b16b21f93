@@ -1,0 +1,13 @@
+package Day03;
+
+//같은 패키지내의 클래스 아닐 경우 import구문 사용
+import Day03.com.test.test;
+
+public class _05_package {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(test.num);
+	}
+
+}

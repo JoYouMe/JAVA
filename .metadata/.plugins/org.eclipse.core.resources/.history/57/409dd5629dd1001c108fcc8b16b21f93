@@ -1,0 +1,11 @@
+package Day03;
+
+public class _01_static {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//정적 멤버(속성) 사용
+		String carColor = Car.color;
+	}
+
+}

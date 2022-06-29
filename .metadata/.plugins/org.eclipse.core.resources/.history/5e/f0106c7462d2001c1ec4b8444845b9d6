@@ -1,0 +1,10 @@
+package Day04;
+
+public class _03_overriding {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calculator cal = new Calculator();
+	}
+
+}

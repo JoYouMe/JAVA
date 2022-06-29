@@ -1,0 +1,10 @@
+package Day04;
+
+public class _02_overloading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calculate cal = new Calculator();
+	}
+
+}

@@ -1,0 +1,13 @@
+package Day02;
+
+public class _08_method {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calculator cal = new Calculator();
+		
+		int result;
+		
+		result = cal.add(10, 3);
+	}
+}

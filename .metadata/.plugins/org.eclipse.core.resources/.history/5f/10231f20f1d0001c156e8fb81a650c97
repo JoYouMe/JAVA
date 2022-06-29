@@ -1,0 +1,9 @@
+package Day02;
+
+public class Car {
+	String company;
+	String color;
+	int price;
+	
+	
+}

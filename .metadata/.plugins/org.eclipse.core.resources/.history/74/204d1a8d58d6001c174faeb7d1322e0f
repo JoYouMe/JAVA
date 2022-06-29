@@ -1,0 +1,12 @@
+package Day07;
+
+import java.io.File;
+
+public class _05_File {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File dir = new File("D:/lecture/JAVA/test");
+	}
+
+}

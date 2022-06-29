@@ -1,0 +1,15 @@
+package Day04;
+
+public class _01_protected {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SamsungTv samsungTv = new SamsungTv();
+		System.out.println("------------------------------");
+		
+		Tv tv = new Tv();
+		tv.company = "제조사없음";
+		System.out.println(tv.company);
+	}
+
+}

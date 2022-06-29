@@ -1,0 +1,15 @@
+package Day06;
+
+import java.util.Calendar;
+
+public class _16_Calendar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calendar now = Calendar.getInstance();
+		
+		//년도 정보 추출
+		int year = now.get(Calendar.YEAR);
+	}
+
+}

@@ -1,0 +1,12 @@
+package Day03;
+
+public class SamsungTv {
+	String company;
+	int price;
+	int size;
+	String ai;
+	
+	void power() {
+		System.out.println("전원을 켭니다.");
+	}
+}

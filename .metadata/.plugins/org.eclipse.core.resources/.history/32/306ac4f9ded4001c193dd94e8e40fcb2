@@ -1,0 +1,16 @@
+package Day05;
+
+public class _08_tryCatchFinally {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			String str1 = "100";
+			String str2 = "bit100";
+			
+			Integer.parseInt(str1);
+			Integer.parseInt(str2);
+		}
+	}
+
+}

@@ -1,0 +1,20 @@
+package Day03;
+
+public class SamsungTv {
+	String company;
+	int price;
+	int size;
+	String ai;
+	
+	void powerOn() {
+		System.out.println("전원을 켭니다.");
+	}
+	
+	void powerOff() {
+		System.out.println("전원을 끕니다.");
+	}
+	
+	void turnOnAi() {
+		System.out.println("하이 빅스비");
+	}
+}

@@ -1,0 +1,13 @@
+package Day04;
+
+public class SmartPhone {
+	int size;
+	
+	SmartPhone() {
+		size = 6;
+	}
+	
+	public void showSize() {
+		System.out.println("Å©±â´Â : " + this.size);
+	}
+}

@@ -1,0 +1,22 @@
+package Day04;
+
+import java.util.Scanner;
+
+public class _05_superCalcultor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("1. µ¡¼À");
+		System.out.println("2. »¬¼À");
+		Scanner sc = new Scanner(System.in);
+		CalMinus calMinus = new CalMinus();
+		
+		calMinus.chk = sc.nextInt();
+		int result1 = calMinus.calculate(10, 20);
+		
+		if(calMinus.chk == 1) {
+			System.out.println("µ¡¼ÀÀÇ °á°ú : " + result1);
+		}
+	}
+
+}

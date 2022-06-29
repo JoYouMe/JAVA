@@ -1,0 +1,12 @@
+package Day06;
+
+public class _15_Date {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//java.util 패키지는 java.lang패키지와 다르게
+		//기본제공되지 않으므로 import 필요
+		Date now = new Date();
+	}
+
+}

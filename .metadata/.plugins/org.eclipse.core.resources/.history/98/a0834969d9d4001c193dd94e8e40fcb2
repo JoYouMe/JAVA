@@ -1,0 +1,11 @@
+package Day05;
+
+public class _06_numberFormatException {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1 = "100";
+		String str2 = "bit100"
+	}
+
+}

@@ -1,0 +1,30 @@
+package Day02;
+
+public class Car {
+	String company;
+	String color;
+	int price;
+	String model;
+	
+	public Car() {
+		company = "현대";
+		color = "레드";
+		price = 30000000;
+		
+		System.out.println("기본생성자 호출");
+	}
+	
+	public Car(String mod) {
+		this();
+		model = mod;
+		
+		System.out.println("두 번째 생성자 호출");
+	}
+	
+	public void carInfo() {
+		System.out.println(this.company);
+		System.out.println(this.color);
+		System.out.println(this.company);
+		System.out.println(this.company);
+	}
+}

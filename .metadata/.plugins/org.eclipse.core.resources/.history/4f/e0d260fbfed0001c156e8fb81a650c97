@@ -1,0 +1,13 @@
+package Day02;
+
+public class _09_random {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//1. 0~100까지 사이의 난수 발생
+		int num1 = (int)Math.random() * 101;
+		System.out.println("발생된 난수 : " + num1);
+		System.out.println("------------------------------");
+	}
+
+}

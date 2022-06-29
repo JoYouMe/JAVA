@@ -1,0 +1,13 @@
+package Day03;
+
+public class _06_getterSetter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		userInfo userinfo = new userInfo();
+		
+		//private로 선언된 필드에 직접 접근 불가
+		userinfo.userName = "홍길동";
+	}
+
+}

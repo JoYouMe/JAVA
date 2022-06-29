@@ -1,0 +1,10 @@
+package Day03.com.test1;
+
+public class C {
+	//default 접근 제한자로 선언된 A클래스가
+	//같은 패키지내에 존재하지 않기 때문에 객체 생성 불가능
+	A a = new A();
+	
+	//public 접근 제한자로 선언된 B클래스는 객체 생성 가능
+	B b = new B();
+}

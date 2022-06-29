@@ -1,0 +1,23 @@
+package Day06;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class _20_HashSet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<String> set = new HashSet<String>();
+		
+		set.add("java");
+		set.add("JDBC");
+		set.add("Servlet/JSP");
+		//Áßº¹°ª ÀúÀå ¾ÈµÊ
+		set.add("java");
+		set.add("MyBatis");
+		
+		
+		System.out.println("ÃÑ °´Ã¼ ¼ö : " + set.size());
+	}
+
+}

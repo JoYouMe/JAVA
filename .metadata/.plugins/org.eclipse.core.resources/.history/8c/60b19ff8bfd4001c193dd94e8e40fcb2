@@ -1,0 +1,6 @@
+package Day05;
+
+public interface Board {
+	//상수 필드
+	public int BOARD_COUNT = 10;
+}

@@ -1,0 +1,9 @@
+package Day03;
+
+public class LgTv extends Tv{
+	String voiceCall;
+	
+	void turnVoiceCall() {
+		System.out.println("Çï·Î¿ì ±¸±Û");
+	}
+}

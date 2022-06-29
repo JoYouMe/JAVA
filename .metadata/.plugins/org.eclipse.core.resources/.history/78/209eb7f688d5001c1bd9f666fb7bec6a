@@ -1,0 +1,13 @@
+package Day06;
+
+public class _10_valueOf {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//int형 10이 String형 "10" 치환
+		String str1 = String.valueOf(10);
+		
+		String str2 = String.valueOf('c');
+	}
+
+}

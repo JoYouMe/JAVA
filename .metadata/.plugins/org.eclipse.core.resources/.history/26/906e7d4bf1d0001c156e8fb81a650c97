@@ -1,0 +1,16 @@
+package Day02;
+
+public class Car {
+	String company;
+	String color;
+	int price;
+	String model;
+	
+	public Car() {
+		company = "현대";
+		color = "레드";
+		price = 30000000;
+		
+		System.out.println("기본생성자 호출");
+	}
+}

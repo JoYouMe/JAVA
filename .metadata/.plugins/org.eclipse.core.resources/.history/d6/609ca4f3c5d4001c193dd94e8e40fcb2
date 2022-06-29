@@ -1,0 +1,6 @@
+package Day05;
+
+public interface Reply {
+	//답글 등록
+	public void registReply();
+}

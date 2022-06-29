@@ -1,0 +1,10 @@
+package Day06;
+
+public class _11_wrapper_parse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1 = Integer.parseInt("100")
+	}
+
+}

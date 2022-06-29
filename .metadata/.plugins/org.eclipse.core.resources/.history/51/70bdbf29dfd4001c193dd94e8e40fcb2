@@ -1,0 +1,20 @@
+package Day05;
+
+public class _08_tryCatchFinally {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			String str1 = "100";
+			String str2 = "bit100";
+			
+			Integer.parseInt(str1);
+			Integer.parseInt(str2);
+		//범용적으로 예외처리할 경우 최상위 예외처리 클래스인
+		//Exception 클래스를 이용
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

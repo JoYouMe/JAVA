@@ -1,0 +1,11 @@
+package Day04;
+
+public class _06_inheritTypeChange {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//1. 자식객체 생성
+		SmartPhone smartPhone = new SmartPhone();
+	}
+
+}

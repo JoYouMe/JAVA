@@ -1,0 +1,17 @@
+package Day03;
+
+public class LgTv extends Tv{
+	String voiceCall;
+	
+	void powerOn() {
+		System.out.println("전원을 켭니다.");
+	}
+	
+	void powerOff() {
+		System.out.println("전원을 끕니다.");
+	}
+	
+	void turnVoiceCall() {
+		System.out.println("헬로우 구글");
+	}
+}

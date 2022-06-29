@@ -1,0 +1,11 @@
+package Day04;
+
+public class Driver {
+	//1. 매개변수를 부모객체로 선언하므로서
+	//   다양한 자식객체들을 매개변수로 받을 수 있게 되고
+	//   매개변수로 받은 자식객체들에 따라 결과값이 달라짐
+	//   bus가 Vihicle형태로 형변환
+	public void drive(Vihicle vihicle) {
+		vihicle.run();
+	}
+}

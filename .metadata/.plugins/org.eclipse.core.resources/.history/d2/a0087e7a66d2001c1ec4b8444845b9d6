@@ -1,0 +1,16 @@
+package Day04;
+
+import java.util.Scanner;
+
+public class _05_superCalcultor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("1. µ¡¼À");
+		System.out.println("2. »¬¼À");
+		Scanner sc = new Scanner(System.in);
+		CalMinus calMinus = new CalMinus();
+		
+	}
+
+}

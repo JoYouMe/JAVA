@@ -1,0 +1,12 @@
+package Day07;
+
+import java.io.Writer;
+
+public class _03_Writer {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		Writer writer = new FlieWriter();
+	}
+
+}

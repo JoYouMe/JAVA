@@ -1,0 +1,6 @@
+package Day03.com.test;
+
+//default 접근 제한자
+public class A {
+	
+}

@@ -1,0 +1,8 @@
+package Day03;
+
+public class SamsungTv {
+	String company;
+	int price;
+	int size;
+	String ai;
+}

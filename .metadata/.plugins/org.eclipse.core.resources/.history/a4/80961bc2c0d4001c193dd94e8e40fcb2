@@ -1,0 +1,27 @@
+package Day05;
+
+public class FreeBoard implements Board{
+	@Override
+	//자유게시판 게시글 목록 조회
+	public void getBoardList() {
+		System.out.println("자유게시판 게시글 목록 조회");
+	}
+	
+	@Override
+	//자유게시판 게시글 등록
+	public void registBoard() {
+		System.out.println("자유게시판 게시글 등록");
+	}
+	
+	@Override
+	//자유게시판 게시글 수정
+	public void updateBoard() {
+		System.out.println("자유게시판 게시글 수정");
+	}
+	
+	@Override
+	//자유게시판 게시글 삭제
+	public void deleteBoard() {
+		
+	}
+}

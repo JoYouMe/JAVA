@@ -1,0 +1,21 @@
+package Day03;
+
+public class Car {
+	//인스턴스 멤버(속성)
+	String company;
+	//정적 멤버
+	static String color = "레드";
+	
+	public Car() {
+		company = "현대";
+	}
+	
+	//인스턴스 멤버(메소드)
+	void companyInfo() {
+		System.out.println("제조사는 : " + company);
+	}
+	//정적 멤버(메소드)
+	static void colorInfo() {
+		System.out.println(color);
+	}
+}

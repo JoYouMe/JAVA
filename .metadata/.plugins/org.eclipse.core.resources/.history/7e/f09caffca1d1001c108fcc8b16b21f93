@@ -1,0 +1,15 @@
+package Day03;
+
+public class Singleton {
+	//싱글톤 객체 생성
+	//전체 프로그램에서 하나의 객체만 생성 가능
+	private static Singleton singleton = new Singleton();
+	
+	private Singleton() {
+		
+	}
+	
+	static Singleton getIntance() {
+		re
+	}
+}

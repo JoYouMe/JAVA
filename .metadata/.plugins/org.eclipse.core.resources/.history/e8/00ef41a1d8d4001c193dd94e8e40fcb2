@@ -1,0 +1,12 @@
+package Day05;
+
+public class _05_arrayIndexOutOfBoundException {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] intArr = new int[3];
+		
+		System.out.println(intArr[3]);
+	}
+
+}

@@ -1,0 +1,8 @@
+package Day04;
+
+public class CalMinus extends Calculator {
+	//부모의 클래스의 존재하는 메소드를 재정의
+	public int calculate(int a, int b) {
+		return a - b;
+	}
+}

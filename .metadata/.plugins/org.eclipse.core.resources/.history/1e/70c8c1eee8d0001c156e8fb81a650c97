@@ -1,0 +1,9 @@
+package Day02;
+
+public class Speaker {
+	int volumn = 0;
+	
+	void volumnUp() {
+		
+	}
+}

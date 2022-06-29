@@ -1,0 +1,17 @@
+package Day05;
+
+public class _13_nanoTime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//합산 전 시간을 담을 변수
+		long time1 = System.nanoTime();
+		
+		int sum = 0;
+		
+		for(int i = 1; i <= 100000; i++) {
+			sum += i;
+		}
+	}
+
+}

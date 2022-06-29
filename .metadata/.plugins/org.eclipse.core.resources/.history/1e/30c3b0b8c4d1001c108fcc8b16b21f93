@@ -1,0 +1,9 @@
+package Day03;
+
+public class SamsungTv extends Tv {
+	String ai;
+	
+	void turnOnAi() {
+		System.out.println("«œ¿Ã ∫ÚΩ∫∫Ò");
+	}
+}

@@ -1,0 +1,13 @@
+package Day05;
+
+public class _03_multiInheritOfInterface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//자유게시판 객체 생성
+		FreeBoard freeBoard = new FreeBoard();
+		
+		Board board = freeBoard;
+	}
+
+}

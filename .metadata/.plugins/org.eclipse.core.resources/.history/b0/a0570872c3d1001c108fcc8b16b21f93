@@ -1,0 +1,8 @@
+package Day03;
+
+public class LgTv {
+	String company;
+	int price;
+	int size;
+	String voiceCall;
+}

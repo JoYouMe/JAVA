@@ -1,0 +1,19 @@
+package Day06;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class _20_HashSet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<String> set = new HashSet<String>();
+		
+		set.add("java");
+		set.add("JDBC");
+		set.add("Servlet/JSP");
+		//중복값 저장 안됨
+		set.add("java");
+	}
+
+}

@@ -1,0 +1,16 @@
+package Day04;
+
+public class _08_intanceof {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SmartPhone sp1 = new SmartPhone();
+		
+		Phone p1 = sp1;
+		
+		if(p1 instanceof SmartPhone) {
+			System.out.println("스마트폰의 형태입니다.");
+		}
+	}
+
+}

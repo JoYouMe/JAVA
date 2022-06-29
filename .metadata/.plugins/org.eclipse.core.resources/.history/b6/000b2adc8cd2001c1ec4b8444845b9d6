@@ -1,0 +1,17 @@
+package Day04;
+
+public class _11_abstractMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Dog dog = new Dog();
+		Cat cat = new Cat();
+		
+		dog.sound();
+		cat.sound();
+		System.out.println("---------------------");
+		
+		//추상클래스는 객체로 생성안되지만 자식객체를 형변환하여 삽입가능
+	}
+
+}

@@ -1,0 +1,14 @@
+package Day03;
+
+//LgTv클래스이면서 Tv클래스의 형태도 포함
+public class LgTv extends Tv{
+	String voiceCall;
+	
+	LgTv(String com, int pri, int si, String voice) {
+		this.company
+	}
+	
+	void turnVoiceCall() {
+		System.out.println("헬로우 구글");
+	}
+}

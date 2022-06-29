@@ -1,0 +1,7 @@
+package Day04;
+
+public class SamsungTv extends Tv{
+	SamsungTv() {
+		this.company = "»ï¼º";
+	}
+}

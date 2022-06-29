@@ -1,0 +1,14 @@
+package Day04;
+
+public class SportsCar extends Car{
+	public int driveMode = 1;
+	
+	@Override
+	public void drive() {
+		if(driveMode == 1) {
+			super.drive();
+		} else {
+			System.out.println("고속주행");
+		}
+	}
+}

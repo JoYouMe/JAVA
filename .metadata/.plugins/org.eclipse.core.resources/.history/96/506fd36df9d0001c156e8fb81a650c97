@@ -1,0 +1,14 @@
+package Day02;
+
+public class _08_method {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int result1 = add(10, 3);
+	}
+	
+	//int형 두 개의 매개변수를 받아서 더한 값을 리턴하는 메소드
+	int add(int x, int y) {
+		return x + y;
+	}
+}
